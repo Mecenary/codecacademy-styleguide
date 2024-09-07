@@ -1,0 +1,104 @@
+/* Spacing tricks between style guide content */
+article+article {
+    margin-top: 40px;
+}
+
+article>h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+/* sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    border-right: 1px solid #a5a5a5;
+    background-color: #fafafa;
+}
+
+.sidebar h1 {
+    margin: 10px;
+}
+
+.sidebar .menu {
+    list-style: none;
+}
+
+.sidebar .menu li {
+    padding: 8px;
+}
+
+.sidebar .menu li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar li:hover {
+    background-color: #e9e9e9;
+}
+
+.sidebar li:active {
+    color: #333;
+    text-decoration: none;
+    background-color: #d1d1d1;
+    transition: background-color 0.3s;
+}
+
+/* main section */
+.styleguide {
+    position: absolute;
+    display: block;
+    left: 0;
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.colors li {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 16px 16px 0;
+}
+
+.buttons li {
+    display: block;
+    margin: 16px 0;
+}
+
+.typography li {
+    margin: 16px 0;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+.texts ul {
+    list-style: disc;
+    margin-left: 20px;
+}

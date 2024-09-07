@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0 10%;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.primary {
+    background-color: #61788C;
+    color: #fff
+}
+
+.secondary {
+    background-color: #98A6A2;
+    color: #fff;
+}
+
+.accent {
+    background-color: #F2E4D8;
+    color: #000
+}
+
+button {
+    display: inline-block;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #858585;
+}
+
+button.primary:hover {
+    background-color: #89a8c4;
+}
+
+button.secondary:hover {
+    background-color: #becfca;
+}
+
+button.accent:hover {
+    background-color: #ffefe0;
+}
+
+button:active {
+    color: #000;
+}
+
+button.accent:active {
+    color: #fff;
+}
